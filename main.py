@@ -11,5 +11,10 @@ option = st.selectbox(
     ("삼성전자", "현대자동차", "SK하이닉스"),
 )
 
-st.write(option)
+st.write("선택 기업명:", option)
+america_option = st.selectbox(
+        "관심 기업은?",
+        ("테슬라", "OpenAI", "Meta"),
 )
+
+st.write("You selected:", america_option)
